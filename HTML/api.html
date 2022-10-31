@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotizar Criptomonedas</title>
+  <link rel="stylesheet" href="/CSS/STYLE2.CSS">
+  
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <div class="container__tittle">
+        <h1 class="container__tittle__h">COTIZADOR DE CRIPTOMONEDAS</h1>
+        <div class="container_image"><img class="container_image__img" src="/CSS/img/img.jpg" alt="img"></div>
+        <div class="container_form">
+          <form id="form" name="form">
+            <div class="form_container">
+              <label class="label">Selecciona tu Moneda</label> <select class="select_moneda" id="moneda" name="moneda">
+                <option class="select_moneda__op" value="">
+                  Selecciona tu moneda
+                </option>
+                <option class="select_moneda__op" value="VES">
+                  Bolivares
+                </option>
+                <option class="select_moneda__op" value="USD">
+                  Dolar
+                </option>
+                <option class="select_moneda__op" value="GBP">
+                  Libras
+                </option>
+                <option class="select_moneda__op" value="EUR">
+                  Euros
+                </option>
+              </select>
+            </div>
+            <div class="criptocoin">
+              <label class="criptocoin__label">Selecciona tu Criptomoneda</label> <select class="criptocoin__select" id="criptomonedas" name="criptomoneda">
+                <option class="criptocoin__select-op" value="">
+                  Selecciona tu criptomoneda
+                </option>
+              </select>
+            </div><input class="button" type="submit" value="Cotizar">
+            <div id="result" class="result"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h4 class="footer__tittle"><a class="footer__tittle-a" href="./index.html">INICIO</a></h4>
+  </footer>
+  <script src="/JS/main.js"></script>
+</body>
+</html>

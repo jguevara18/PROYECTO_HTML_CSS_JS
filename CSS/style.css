@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main__header_container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.main__header_container__img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.imagen_productos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #318697;
+    
+}
+
+.container__nav__div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.container__nav__div__button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background: #3587A4;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    }
+.container__nav__div__button-a{
+    font-size: 20px;
+    color: rgb(250, 243, 243);
+}
+
+.container__nav__div__button-a:hover{
+    color:#C1DFF0;
+    transform: 0.3s ease all;
+}
+
+
+.container2{
+    display:grid;
+    align-items: center;
+
+}
+
+.container2__tittle{
+    font-size: 50px;
+    color: rgb(14, 13, 13);
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+
+}
+.container2__tittle__p{
+    text-align: center;
+}
+
+.section__aside{
+
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color:#7BB3CA;
+}
+
+.section__aside__tittle{
+
+    color: rgb(14, 13, 13);
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    background-color: #2D898B;
+}
+
+
+.section__aside__tittle__p {
+    font-size: 20px;
+}
+
+footer {
+    
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    background-color: #88CCF1;
+    
+}
+.footer__div__form__input__button {
+    border: none;
+    color: rgb(59, 58, 58);
+    background-color: #f55656;
+    padding: 16px 32px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 100px;
+    width: 100%;
+}
+
+/* //pagina contacto */
+
+#contact__div__tittle-a{
+    display:flex ;
+    color:#000;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#contact__div__tittle-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact__div__tittle{
+    text-align: center;
+}
+.contact__div__tittle-p{
+    text-align: justify;
+}
+
+.contact__div__p{
+    text-align: center;
+    color: rgb(209, 196, 255);
+}
+
+/* // pagina trabajo */
+
+.job__tittle{
+    text-align: center;
+    background-color: #C1DFF0;
+}
+
+/* pagina galeria */
+
+.Gallery__tittle{
+    text-align: center;
+    color: red;
+}
+
+
+
